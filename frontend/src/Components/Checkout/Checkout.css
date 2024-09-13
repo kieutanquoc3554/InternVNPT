@@ -1,0 +1,191 @@
+.checkout-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  max-width: 90%;
+  max-height: 80%;
+  overflow-y: auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.checkout-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
+}
+
+.checkout-items {
+  margin-bottom: 20px;
+}
+
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.checkout-cash,
+.checkout-change {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.checkout-buttons {
+  display: flex;
+}
+.checkout-buttons button {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background: brown;
+  margin-top: 30px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "Bricolage Grotesque", sans-serif;
+  border-radius: 20px;
+  margin: 30px auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.change {
+  border: 1px solid grey;
+  width: 70%;
+  height: 30px;
+  border-radius: 15px;
+  padding: 10px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 20px;
+}
+
+.numeric-keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.numeric-keypad button {
+  padding: 10px;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  font-family: "Bricolage Grotesque", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.numeric-keypad button:hover {
+  background-color: #e0e0e0;
+}
+
+.main {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+#numberphone {
+  border: 1px solid grey;
+  width: 50%;
+  height: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 15px;
+}
+
+.column {
+  border: 1px dashed gray;
+}
+
+.row {
+  border: 1px dotted gray;
+  margin: 20px auto;
+}
+
+.paymentMethod,
+.ordertype {
+  display: flex;
+  gap: 20px;
+}
+
+.paymentMethod .method-item {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  margin: 20px auto;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  font-family: "Bricolage Grotesque", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  align-items: center;
+}
+
+.type-item {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  margin: 20px auto;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  font-family: "Bricolage Grotesque", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  align-items: center;
+  justify-content: baseline;
+  width: 50%;
+}
+
+.suggest {
+  padding: 5px;
+}
+
+.amount-buttons {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  gap: 10px;
+}
+.amount-buttons button {
+  background-color: #bdd0e663;
+  border: 1px solid rgb(230, 229, 229);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+}

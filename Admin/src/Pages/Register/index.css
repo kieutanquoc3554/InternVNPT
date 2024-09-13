@@ -1,0 +1,87 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.register-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 80vw;
+  min-height: 100vh;
+  background-color: white;
+  margin: 10px;
+  padding: 10px 20px 20px 20px;
+  min-height: 300px;
+}
+
+.loginsignup-container {
+  width: 580px;
+  height: 600px;
+  background: white;
+  margin: 10px auto;
+  padding: 10px 80px;
+}
+
+.loginsignup-container h1 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.loginsignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-top: 30px;
+}
+
+.loginsignup-fields input {
+  background: transparent;
+  height: 55px;
+  border-radius: 20px;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid #c9c9c9;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.loginsignup-container button {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background: brown;
+  margin-top: 30px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  border-radius: 20px;
+  display: block;
+}
+
+.signup-role {
+  display: flex;
+  gap: 29px;
+  margin-top: 30px;
+}
+.signup-role select {
+  font-size: large;
+}
+.loginsignup {
+  font-family: "lora";
+}
+.register-btn-item {
+  display: inline-flex;
+}
+.register-btn {
+  text-align: center;
+}
+.register-btn-cancel {
+  margin-right: 10px;
+}

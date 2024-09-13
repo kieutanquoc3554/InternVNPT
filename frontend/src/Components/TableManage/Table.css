@@ -1,0 +1,112 @@
+.title {
+  margin: 10px auto;
+  text-align: center;
+  font-weight: 700;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  border-color: #007bff;
+}
+
+.order-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(29, 68, 94, 0);
+  z-index: 1000;
+}
+
+.order-popups {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  z-index: 1001;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.order-popups button {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background: brown;
+  margin-top: 30px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "lora";
+  border-radius: 20px;
+  margin: 30px auto; /* Centers the button horizontally */
+  display: block;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.button-feature {
+  display: flex;
+  gap: 10px;
+}
+
+.order-popups input {
+  height: 20px;
+  border-radius: 20px;
+  width: 50%;
+  padding-left: 20px;
+  border: 1px solid #c9c9c9;
+  font-size: 14px;
+  font-family: "lora";
+  margin-left: 20px;
+}
+.order-popups textarea {
+  height: 20px;
+  border-radius: 20px;
+  width: 50%;
+  border: 1px solid #c9c9c9;
+  font-size: 12px;
+  font-family: "lora";
+  margin-left: 20px;
+}
+
+.info-booking {
+  border: 1px solid grey;
+  width: 60%;
+  height: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "lora";
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+#ngaydat,
+#giocat {
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #f2f2f2;
+  outline: none;
+  width: 30%;
+  font-family: "Bricolage Grotesque", sans-serif;
+}

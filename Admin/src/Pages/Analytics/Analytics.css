@@ -1,0 +1,59 @@
+.analytics-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 80vw;
+  min-height: 100vh;
+  background-color: white;
+  margin: 10px;
+  padding: 10px 20px 20px 20px;
+  min-height: 300px;
+}
+
+.analytics-chart {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.analytics-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.analytics-day {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.analytics-right-float {
+  float: right;
+}
+
+.analytics-select {
+  margin-left: 70%;
+  label {
+    margin-right: 10px;
+  }
+  select {
+    width: 100px;
+    height: 20px;
+    /* color: rgb(100, 183, 255); */
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.analytics-months {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Căn giữa theo chiều ngang */
+}
+
+.analytics-months button {
+  margin: 20px auto;
+}
